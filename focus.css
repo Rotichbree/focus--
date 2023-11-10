@@ -1,0 +1,346 @@
+nav {
+    padding: 15px;
+}
+
+.navbar-header a {
+    font-size: 50px;
+    color: black;
+}
+
+#myNavbar ul li a {
+    color: #30D5C8;
+    font-size: 24px;
+}
+
+#myNavbar ul li a:hover {
+    background-color: #30D5C8;
+    color: black;
+    border-radius: 8px;
+}
+
+nav .container-fluid #myNavbar #items {
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+nav .container-fluid #myNavbar ul .contactBtn {
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+}
+
+.section-1 img {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    filter: blur(3px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#HOME,
+#AGENTS,
+#REVIEWS,
+#PROPERTIES,
+#CONTACT {
+    background-color: black;
+    color: #30D5C8;
+}
+
+.section-1 {
+    position: relative;
+}
+
+.section-1 .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section-1 .text h1 {
+    color: #30D5C8;
+    font-size: 50px;
+}
+
+.section-1 .text p {
+    color: #30D5C8;
+    font-size: 30px;
+}
+
+.header-img {
+    position: relative;
+    margin-top: 70px;
+}
+
+.focusLogo {
+    width: 100%;
+    height: auto;
+    max-width: 100px;
+    max-height: 100px;
+    margin-left: 0, 0;
+}
+
+.header-img img {
+    height: 100px;
+    width: 100vw;
+}
+
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 40px;
+    letter-spacing: 8px;
+    font-family: fantasy;
+    width: 100%;
+    max-width: 100%;
+}
+
+.header-text:hover {
+    font-size: 50px;
+    transition: 0.4s;
+    letter-spacing: 15px;
+}
+
+#howItWork {
+    background-color: black;
+}
+
+.container-fluid .row {
+    margin-top: 60px;
+}
+
+.container-fluid .row .col-sm-4 {
+    margin: 40px 0 0 0;
+}
+
+#howItWork .row .col-sm-4:nth-child(1) {
+    padding: 40px;
+    background-color: black;
+    border-radius: 10px;
+    color: #30D5C8;
+}
+
+#howItWork .row .col-sm-4:nth-child(2) {
+    padding: 40px;
+    background-color: #30D5C8;
+    border-radius: 10px;
+    color: black;
+}
+
+#howItWork .row .col-sm-4:nth-child(3) {
+    padding: 40px;
+    background-color: black;
+    border-radius: 10px;
+    color: #30D5C8;
+}
+
+.container-fluid .row .col-sm-4 span {
+    font-size: 50px;
+    color: #30D5C8;
+}
+
+.container-fluid .row .col-sm-4 h4 {
+    font-size: 30px;
+}
+
+.container-fluid .row .col-sm-4 p {
+    font-size: 18px;
+}
+
+#PROPERTIES .container-fluid .row .col-sm-4 img {
+    width: 100%;
+}
+
+#REVIEWS .container-fluid .jumbotron {
+    background-color: black;
+    box-shadow: 0 0 2px 2px#30D5C8;
+}
+
+#REVIEWS .container-fluid .jumbotron img {
+    width: 100px;
+    height: 100px;
+    margin-left: 40%;
+}
+
+#HOME .btn,
+#AGENTS .btn,
+#REVIEWS .btn,
+#PROPERTIES .btn {
+    padding: 12px;
+    background-color: #30D5C8;
+    margin-top: 40px;
+    color: black;
+    font-weight: 900;
+    cursor: pointer;
+    width: 200px;
+    border: 1px solid black;
+}
+
+#CONTACT .container-fluid {
+    background-color: black;
+}
+
+#CONTACT .container-fluid {
+    position: relative;
+}
+
+#CONTACT .container-fluid .row .col-sm-7 {
+    position: inherit;
+    margin-top: -60px;
+}
+
+#CONTACT .container-fluid .row .col-sm-7 input {
+    background-color: #30D5C8;
+}
+
+#CONTACT .container-fluid .row .col-sm-7 textarea {
+    background-color: #30D5C8;
+}
+
+#CONTACT .container-fluid .row .col-sm-7 form {
+    background-color: black;
+    color: #30D5C8;
+    width: 100%
+}
+
+#CONTACT .container-fluid .row .col-sm-7 form input {
+    background-color: #30D5C8;
+    color: black;
+    width: max-content
+}
+
+#CONTACT .container-fluid .row .col-sm-7 ::placeholder {
+    color: black;
+}
+
+#CONTACT .container-fluid .row .col-sm-7 .row .col-sm-12 {
+    margin-top: -55px;
+    margin-right: 40%;
+}
+
+#CONTACT .container-fluid .row .col-sm-7 .row .col-sm-12 button {
+    background-color: #30D5C8;
+    color: black;
+    width: 150px;
+}
+
+.form-box {
+    width: 400px;
+    height: 560px;
+    position: relative;
+    margin: 2% auto;
+    background: rgba(3, 3, 3, 0.1);
+    padding: 20px;
+    margin-top: 40px;
+    overflow: hidden;
+}
+
+.button-box {
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 11px #333;
+    border-radius: 30px;
+}
+
+.toggle-btn {
+    cursor: pointer;
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    background: transparent;
+    position: relative;
+    color: #30D5C8;
+}
+
+#btn {
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: #30D5C8;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid#999;
+    outline: none;
+    background: transparent;
+}
+
+.submit-btn {
+    width: 85%;
+    padding: 10px 30px;
+    display: block;
+    outline: none;
+    border: none;
+    margin: auto;
+    cursor: pointer;
+    background: #30D5C8;
+    border-radius: 30px;
+}
+
+.check-box {
+    margin: 30px 10px 34px 0;
+}
+
+.container h4 #backTop {
+    background-color: #30D5C8;
+    border: 3px solid black;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+.container h4 #backTop a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer {
+    padding: 40px;
+    background-color: black;
+}
+
+footer .container-fluid .row .col-md-12 a {
+    padding: 18px;
+}
+
+footer .container-fluid .row .col-md-12 a .fab {
+    font-size: 32px;
+    color: #30D5C8;
+    letter-spacing: 60px;
+}
+
+@media screen and (max-width:992px) {
+    nav .container-fluid #myNavbar #items {
+        margin-left: 0px;
+    }
+    .section-1 .text h1 {
+        font-size: 35px;
+        width: 340px;
+    }
+    .section-1 .text p {
+        font-size: 20px;
+        width: 340px;
+    }
+    footer .container-fluid .row .col-md-12 a {
+        padding: 6px;
+    }
+    footer .container-fluid .row .col-md-12 a .fab {
+        letter-spacing: 25px;
+    }
+}
